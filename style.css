@@ -1,0 +1,89 @@
+/* The * selector selects all elements on the page */
+* {
+    /* The box-sizing property defines how the width and height of an element are calculated */
+    box-sizing: border-box;
+    /* The margin property sets the margin space around an element */
+    margin: 0;
+    /* The padding property sets the padding space inside an element */
+    padding: 0;
+  }
+  
+  /* The body selector selects the body element of the page */
+  body {
+    /* The font-family property specifies the font of the text */
+    font-family: Arial, sans-serif;
+    /* The font-size property specifies the size of the text */
+    font-size: 16px;
+    /* The color property specifies the color of the text */
+    background-color: #333;
+    color:#d6d6d6;
+  }
+  
+  /* The header selector selects the header element of the page */
+  header {
+    /* The position property specifies the type of positioning method used for an element */
+    position: fixed;
+    /* The top property specifies the top position of an element */
+    top: 0;
+    /* The left property specifies the left position of an element */
+    left: 0;
+    /* The width property specifies the width of an element */
+    width: 100%;
+    /* The height property specifies the height of an element */
+    height:60px;
+    /* The background-color property specifies the background color of an element */
+    background-color: #404040;
+    /* The box-shadow property adds shadow effects around an element */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    /* The z-index property specifies the stack order of an element */
+    z-index: 10;
+    color: white;
+  }
+  
+  /* The logo selector selects the element with the class name logo */
+  .logo {
+    /* The float property specifies how an element should float */
+    float: left;
+    /* The margin property sets the margin space around an element */
+    margin: 20px;
+  }
+  
+  /* The logo img selector selects the img element inside the logo element */
+  .logo img {
+    /* The height property specifies the height of an element */
+    height: 40px;
+  }
+  
+  /* The menu selector selects the element with the class name menu */
+  .menu {
+    /* The float property specifies how an element should float */
+    float: right;
+  }
+  
+  /* The menu ul selector selects the ul element inside the menu element */
+  .menu ul {
+    /* The list-style property specifies the appearance of a list */
+    list-style: none;
+    /* The display property specifies how an element should be displayed */
+    display: flex;
+    /* The align-items property aligns flex items vertically */
+    align-items: center;
+  }
+  
+  /* The menu ul li selector selects the li element inside the ul element inside the menu element */
+  .menu ul li {
+    /* The margin property sets the margin space around an element */
+    margin: 20px 10px;
+  }
+  
+  /* The menu ul li a selector selects the a element inside the li element inside the ul element inside the menu element */
+  .menu ul li a {
+    /* The text-decoration property specifies the decoration added to text */
+    text-decoration: none;
+    /* The color property specifies the color of the text */
+    color: #333;
+  }
+  
+  .box{
+    text-align: center;
+  }
